@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-# Displays "Best School" 10 times using a while loop.
-# In the 9th iteration, It will display "Hi" before "Best School".
+# Displays "Best School" 10 times using a while loop but there are some cases:
+#   "bad luck" for the 4th iteration
+#   "good luck" for the 8th iteration
+#   "Best School" for all other iterations
 
 i=0
 
