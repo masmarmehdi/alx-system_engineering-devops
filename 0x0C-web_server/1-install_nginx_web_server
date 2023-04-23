@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# installing nginx web server and writing hello world
 sudo apt -y update
 sudo apt install -y nginx
 echo "Hello World!" > /var/www/index.nginx-debian.html
