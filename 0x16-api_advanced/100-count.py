@@ -5,7 +5,7 @@ import requests
 
 def count_words(subreddit, word_list, after='', words={}):
     """ recursive function that queries Reddit API, parse the title of all hot\
-	articles, and prints a sorted count of given keywords."""
+	articles, and prints a sorted count of given keywords"""
     if not words:
         for word in word_list:
             if word.lower() not in words:
